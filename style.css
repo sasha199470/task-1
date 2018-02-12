@@ -1,5 +1,8 @@
-body {
+body, h1.headline_inverse, h2.headline_inverse {
   color: #fff; }
+
+h1, h2 {
+  color: #000; }
 
 body {
   margin: 0; }
@@ -9,5 +12,23 @@ a {
 
 h2 {
   margin: 0; }
+
+h1 {
+  font-size: 32px;
+  line-height: 40px; }
+  h1.mot {
+    margin-top: 100px; }
+  @media screen and (min-width: 768px) {
+    h1 {
+      font-size: 40px;
+      line-height: 48px; } }
+
+h2 {
+  font-size: 24px;
+  line-height: 29px; }
+  @media screen and (max-width: 767px) {
+    h2.headline_inverse {
+      line-height: 19px;
+      font-size: 16px; } }
 
 /*# sourceMappingURL=style.css.map */

@@ -1,0 +1,28 @@
+
+h1,h2{
+	@extend %text_color;
+	&.headline_inverse {
+		@extend %base_color;
+	}
+}
+h1 {
+	font-size: 32px;
+	line-height: 40px;
+	&.mot {
+		margin-top: 100px;
+	}
+	@media screen and (min-width: $s) {
+		font-size: 40px;
+		line-height: 48px;
+	}
+}
+h2 {
+	font-size: 24px;
+	line-height: 29px;
+	&.headline_inverse {
+		@media  screen and (max-width: 767px) {
+			line-height: 19px;
+			font-size: 16px;
+		}
+	}
+}
