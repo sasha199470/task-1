@@ -1,0 +1,28 @@
+// color variables
+
+$base_color: #fff;
+$header_color: #082841;
+$link_color: #DD3E18;
+$text_color: #000;
+
+%base_color {
+	color: $base_color;
+}
+%link_color {
+	color: $link_color;
+}
+%text_color {
+	color: $text_color;
+}
+%base_bacground {
+	background-color: $base_color;
+}
+%header_background {
+	background-color: $header_color;
+}
+%dots_bacground {
+	background-color: $link_color; 
+}
+%footer_background {
+	background-image: linear-gradient(#E6F0F0,#E9F0E6);
+}
