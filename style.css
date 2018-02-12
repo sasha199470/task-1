@@ -1,6 +1,9 @@
 body, h1.headline_inverse, h2.headline_inverse, p.paragraph_inverse {
   color: #fff; }
 
+a {
+  color: #DD3E18; }
+
 h1, h2, p {
   color: #000; }
 
@@ -38,5 +41,9 @@ p {
     p.paragraph_inverse {
       font-size: 20px;
       line-height: 28px; } }
+
+a {
+  font-size: 16px;
+  line-height: 24px; }
 
 /*# sourceMappingURL=style.css.map */
