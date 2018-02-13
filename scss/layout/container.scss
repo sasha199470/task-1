@@ -1,0 +1,11 @@
+.container {
+	display: flex;
+	justify-content: center;
+	.container_body {
+		width: 90%;
+		@media  screen and (min-width: $m) {
+			width: 944px
+		}
+
+	}
+}
