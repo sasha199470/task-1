@@ -1,0 +1,40 @@
+.content {
+	display: flex;
+	flex-wrap: wrap;
+	margin-bottom: 120px;
+	@media screen and (min-width: $m) {
+		flex-wrap: nowrap;
+		height: 320px;
+		&:nth-child(even) ul {
+				order: -1;
+				margin-right: 90px;
+			.nav-dots {
+				@media screen and (min-width: $m){
+					left: 104%;
+				}
+			}
+		}
+		&:nth-child(odd) ul {
+			margin-left: 90px;
+			.nav-dots {
+				@media screen and (min-width: $m){
+					right: 104%;
+				}
+			}
+		}
+
+	}
+	.content-itm {
+		display: flex;
+		flex-wrap: wrap;
+		flex: 1 1 300px;
+		@media screen and (min-width: $m) {
+			flex-direction: column;
+			flex-wrap: nowrap;
+		}
+		.name {
+			flex: 1 1 300px;
+		}
+	}
+
+}
