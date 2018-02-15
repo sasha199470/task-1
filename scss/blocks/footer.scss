@@ -1,0 +1,57 @@
+.footer {
+  @extend %footer_background;
+  .task {
+    @media screen and (min-width: $m){
+      display: flex;
+      justify-content: space-between;
+      form {
+        width: 544px;
+      }
+    }
+  }
+  .contact {
+    @media screen and (min-width: $s) {
+      display: flex;
+      flex-direction: row-reverse;
+      justify-content: space-between;
+    }
+    @media screen and (min-width: $m){
+     flex-direction: column-reverse;
+      justify-content: flex-end;
+      width: 350px;
+
+    }
+  }
+  ul {
+    list-style-type: none;
+    position: relative;
+    padding-right: 32px;
+    li:before {
+      content: "";
+      width: 20px;
+      height: 20px;
+      background: rgba(0, 0, 0, 0.1);
+      position: absolute;
+      border-radius: 2px;
+      left: 0px;
+    }
+  }
+  p {
+    @media screen and (min-width: $s) {
+      width: 70%;
+    }
+  }
+  label {
+    @extend %link_color;
+    font-size: 16px;
+    font-family: Helvetica;
+    line-height: 24px;
+    font-weight: bold;
+  }
+  .doc {
+    background-image:url("img/doc.svg");
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+  }
+}
