@@ -4,6 +4,7 @@
 
 //base
 @import "base/reset";
+@import "base/typography";
 
 //components
 @import "components/headline";
@@ -17,6 +18,7 @@
 @import "blocks/slides";
 @import "blocks/expectation";
 @import "blocks/content";
+@import "blocks/footer";
 
 //layout
 @import "layout/container";

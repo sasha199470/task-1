@@ -1,6 +1,7 @@
 
 h1,h2{
 	@extend %text_color;
+	font-family: Helvetica;
 	&.headline_inverse {
 		@extend %base_color;
 	}

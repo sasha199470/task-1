@@ -2,6 +2,7 @@ p {
 	@extend %text_color;
 	font-size: 16px;
 	line-height: 24px;
+	font-family: Georgia;
 	&.paragraph_inverse {
 		@extend %base_color;
 		@media  screen and (min-width: $s) {
