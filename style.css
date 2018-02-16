@@ -97,7 +97,8 @@ input {
     display: none; }
   input[type=submit] {
     margin-top: 30px;
-    font-family: Helvetica; }
+    font-family: Helvetica;
+    cursor: pointer; }
 
 textarea {
   padding-top: 16px;
@@ -315,7 +316,7 @@ input#img-14:checked ~ .nav-dots label#img-dot-14 {
   font-size: 16px;
   font-family: Helvetica;
   line-height: 24px;
-  font-weight: bold; }
+  cursor: pointer; }
 .footer .doc {
   background-image: url("img/doc.svg");
   width: 20px;
